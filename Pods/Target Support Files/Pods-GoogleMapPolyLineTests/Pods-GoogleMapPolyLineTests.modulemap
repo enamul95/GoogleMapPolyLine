@@ -1,0 +1,6 @@
+framework module Pods_GoogleMapPolyLineTests {
+  umbrella header "Pods-GoogleMapPolyLineTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
