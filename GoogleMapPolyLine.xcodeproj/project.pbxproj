@@ -12,7 +12,6 @@
 		B708B1E42392A34B00343427 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708B1E32392A34B00343427 /* SceneDelegate.swift */; };
 		B708B1E62392A34B00343427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708B1E52392A34B00343427 /* ViewController.swift */; };
 		B708B1E92392A34B00343427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B708B1E72392A34B00343427 /* Main.storyboard */; };
-		B708B1EC2392A34B00343427 /* GoogleMapPolyLine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B708B1EA2392A34B00343427 /* GoogleMapPolyLine.xcdatamodeld */; };
 		B708B1EE2392A36200343427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B708B1ED2392A36200343427 /* Assets.xcassets */; };
 		B708B1F12392A36200343427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B708B1EF2392A36200343427 /* LaunchScreen.storyboard */; };
 		B708B1FC2392A36200343427 /* GoogleMapPolyLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708B1FB2392A36200343427 /* GoogleMapPolyLineTests.swift */; };
@@ -51,7 +50,6 @@
 		B708B1E32392A34B00343427 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B708B1E52392A34B00343427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B708B1E82392A34B00343427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B708B1EB2392A34B00343427 /* GoogleMapPolyLine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleMapPolyLine.xcdatamodel; sourceTree = "<group>"; };
 		B708B1ED2392A36200343427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B708B1F02392A36200343427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B708B1F22392A36200343427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				B708B1ED2392A36200343427 /* Assets.xcassets */,
 				B708B1EF2392A36200343427 /* LaunchScreen.storyboard */,
 				B708B1F22392A36200343427 /* Info.plist */,
-				B708B1EA2392A34B00343427 /* GoogleMapPolyLine.xcdatamodeld */,
 			);
 			path = GoogleMapPolyLine;
 			sourceTree = "<group>";
@@ -411,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B708B1E62392A34B00343427 /* ViewController.swift in Sources */,
-				B708B1EC2392A34B00343427 /* GoogleMapPolyLine.xcdatamodeld in Sources */,
 				B708B1E22392A34B00343427 /* AppDelegate.swift in Sources */,
 				B708B1E42392A34B00343427 /* SceneDelegate.swift in Sources */,
 			);
@@ -742,19 +738,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B708B1EA2392A34B00343427 /* GoogleMapPolyLine.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B708B1EB2392A34B00343427 /* GoogleMapPolyLine.xcdatamodel */,
-			);
-			currentVersion = B708B1EB2392A34B00343427 /* GoogleMapPolyLine.xcdatamodel */;
-			path = GoogleMapPolyLine.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B708B1D62392A34B00343427 /* Project object */;
 }
