@@ -1,4 +1,5 @@
 PODS:
+  - DTZFloatingActionButton (0.4.0)
   - GoogleMaps (3.6.0):
     - GoogleMaps/Maps (= 3.6.0)
   - GoogleMaps/Base (3.6.0)
@@ -6,20 +7,27 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (3.6.0):
     - GoogleMaps/Base (= 3.6.0)
+  - JJFloatingActionButton (2.1.0)
 
 DEPENDENCIES:
+  - DTZFloatingActionButton
   - GoogleMaps
   - GooglePlaces
+  - JJFloatingActionButton
 
 SPEC REPOS:
   trunk:
+    - DTZFloatingActionButton
     - GoogleMaps
     - GooglePlaces
+    - JJFloatingActionButton
 
 SPEC CHECKSUMS:
+  DTZFloatingActionButton: 746febb29e47f9023089cb7bab15da2b1cbbf888
   GoogleMaps: 82f8fe307193bb4de6ef6bf9e88f1d624b718f9d
   GooglePlaces: 1b9d29cf3e164903d873600f511f42acdfe85294
+  JJFloatingActionButton: 26805f87c7e9f68c6a91bd9f3f09c2e6b904a84f
 
-PODFILE CHECKSUM: 254d4186196469a391be42bcb8244a042023e4dd
+PODFILE CHECKSUM: 04fd7648ce4592fb0b5fd678fd1685184c1fec08
 
 COCOAPODS: 1.8.4

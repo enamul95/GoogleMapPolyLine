@@ -8,7 +8,9 @@ target 'GoogleMapPolyLine' do
   # Pods for GoogleMapPolyLine
    pod 'GoogleMaps'
   pod 'GooglePlaces'
-
+ pod 'JJFloatingActionButton'
+ pod 'DTZFloatingActionButton'
+ 
   target 'GoogleMapPolyLineTests' do
     inherit! :search_paths
     # Pods for testing

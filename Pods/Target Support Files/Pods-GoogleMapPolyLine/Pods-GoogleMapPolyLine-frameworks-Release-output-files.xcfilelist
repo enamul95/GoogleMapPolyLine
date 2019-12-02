@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTZFloatingActionButton.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJFloatingActionButton.framework
