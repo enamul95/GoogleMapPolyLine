@@ -180,7 +180,6 @@
 				B708B1DB2392A34B00343427 /* Frameworks */,
 				B708B1DC2392A34B00343427 /* Resources */,
 				E33966296D4A80481DB54FC5 /* [CP] Copy Pods Resources */,
-				AF65313DD146D350EBE5BBDE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +218,6 @@
 				B708B1FF2392A36200343427 /* Frameworks */,
 				B708B2002392A36200343427 /* Resources */,
 				9AA4D02B5960555176B52810 /* [CP] Copy Pods Resources */,
-				158B3777A239CA5FE3F8D9C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,23 +300,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		158B3777A239CA5FE3F8D9C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		756E2D5EBBAC2AB918D64CBD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,23 +337,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests/Pods-GoogleMapPolyLine-GoogleMapPolyLineUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF65313DD146D350EBE5BBDE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapPolyLine/Pods-GoogleMapPolyLine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapPolyLine/Pods-GoogleMapPolyLine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapPolyLine/Pods-GoogleMapPolyLine-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9A479DDDA74F337C4D98768 /* [CP] Check Pods Manifest.lock */ = {
